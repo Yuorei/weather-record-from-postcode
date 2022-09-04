@@ -76,7 +76,7 @@ func main() {
 			if err := json.Unmarshal(bytes, &apiResArea); err != nil {
 				panic(err)
 			}
-			token := "daadbcf43be9fa464c47b3431ac4429a" // APIトークン
+			token := "APIキー" // APIトークン
 			latitude := apiResArea.Response.Location[0].Y
 			longitude := apiResArea.Response.Location[0].X
 
